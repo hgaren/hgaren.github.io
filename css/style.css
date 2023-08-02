@@ -35,7 +35,7 @@ img {
 }
 
 
-h1, h2, h3, h4, h5, h6, hpub, h7 { 
+h1, h2, h3, h4, h5, h6, hpub, h8 { 
   font: normal 200% 'News Cycle', arial, sans-serif;
   color: #222;
   margin: 0 0 15px 0;
@@ -52,7 +52,13 @@ h1 {
 }
 
 h2 { 
-  font: normal 100% 'News Cycle', arial, sans-serif;
+  font: normal 170% 'News Cycle', arial, sans-serif;
+  color: #666;  
+  margin: 0;
+  padding: 0 0 8px 0;
+}
+h8 { 
+  font: normal 170% 'News Cycle', arial, sans-serif;
   color: #666;  
   margin: 0;
   padding: 0 0 8px 0;
@@ -250,7 +256,14 @@ nav {
   text-align: center;
   color: #222;
 }
-
+.blog h8 {
+  font: bold 80% arial, sans-serif;
+  text-shadow: none;
+  text-align: center;
+  margin: 0 -10px 0px -050px;
+  padding: 4px 0 0 0;
+  color: #FFF;
+}
 footer { 
   width: 1150px;
   font: normal 130% 'News Cycle',  arial, sans-serif;
