@@ -54,8 +54,10 @@ h1 {
 h2 { 
   font: normal 170% 'News Cycle', arial, sans-serif;
   color: #666;  
-  margin: 0;
+  margin: 1;
   padding: 0 0 8px 0;
+  text-align: left
+
 }
 h8 { 
   font: normal 170% 'News Cycle', arial, sans-serif;
@@ -406,7 +408,7 @@ ul img {
 }
 
 .lavaLampWithImage li a {
-  font: normal 130% 'News Cycle', sans-serif;
+  font: normal 180% 'News Cycle', sans-serif;
   text-shadow:1px 1px #FFF;
   text-decoration: none;
   color: #222;
@@ -417,7 +419,7 @@ ul img {
   display: block;
   float: left;
   height: 30px;
-  padding: 0px 9px 0 9px;
+  padding: 0px -19px 0 9px;
   position: relative;
   overflow: hidden;
   margin: auto 10px;    
